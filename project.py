@@ -18,3 +18,4 @@ print(df.groupby(['Risk','Results'])['Inspection ID'].sum())
 
 # 4. Il tasso di fallimento è cambiato nel tempo?
 print(df[df['Results'] == 'Fail'].groupby('Inspection Date').size() / df.groupby('Inspection Date').size())
+
