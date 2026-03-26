@@ -30,4 +30,5 @@ f, ax = plt.subplots(figsize=(9, 6)) # Crea una figura e un asse per il grafico
 sns.heatmap(data.corr() , annot=True, fmt=".2f", linewidths=.5, ax=ax) 
 plt.tight_layout() # Regola automaticamente i parametri del layout per evitare sovrapposizioni
 plt.show() # Mostra il grafico
-f.savefig('correlation_heatmap.png') # Salva il grafico
+# Salva il grafico come file PNG in una posizione specifica
+f.savefig('C:\\Users\\simom\\OneDrive - Università degli Studi di Milano-Bicocca\\3° anno\\Data Processing\\Chicago Food Inspections\\correlation_heatmap.png') 
